@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    font-family:Arial;
+    box-sizing:border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color:rgb(82, 82, 82);
+}
+
+.nav-logo{
+    height:50px;
+    width:50px;
+}
+
+.logo {
+    background-image: url("https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg");
+    background-size: cover;
+    height: 50px;
+    width:100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.25px solid white;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    height: 100%;
+}
+
+.nav-btn {
+
+    margin-left: 20px;   
+}
+
